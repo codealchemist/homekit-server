@@ -1,0 +1,21 @@
+{
+  "name": "homekit-server",
+  "version": "1.0.0",
+  "description": "Contained HomeKit server",
+  "main": "index.js",
+  "scripts": {
+    "start": "homebridge",
+    "switch": "node src/index.js"
+  },
+  "author": "Alberto Miranda",
+  "repository": "codealchemist/homekit-server",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "homebridge": "^0.4.38",
+    "homebridge-berthing-switch": "file:../homebridge-berthing-switch",
+    "printii": "^1.0.0",
+    "standard-focus": "^1.1.2"
+  }
+}
